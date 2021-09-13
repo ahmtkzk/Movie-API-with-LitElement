@@ -29,7 +29,7 @@ public class KontrolSinifi {
         return new ModelAndView("redirect:http://localhost:8000/dev/");
     }
 
-    @PostMapping(value = "/Save", consumes = "application/json", produces = "application/json")
+    @PostMapping(value = "/Save")
     public String saveAFilm(@RequestBody Film film) {
         service.insertFilm(film);
         return "Başarılı";
