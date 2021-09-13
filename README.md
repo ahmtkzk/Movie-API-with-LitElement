@@ -5,7 +5,7 @@
   yazılmıştır.
 - Veritabanı bilgileri ve verileri proje içerisindeki `veritabanı.txt` içerisinde bulunmaktadır.
 - The Movie DataBase (tmdb) web sitesinde bulunan API, `PHP` ile 5000 adet filme kadar çekilip veritabanına yazılmıştır.
-  <br> PHP botu proje dizininde mevcuttur. Veritabanına işlenen veriler, Java ile çekilip ön yüze aktarılmıştır.
+  <br> PHP botu GitHub Repolarım arasında mevcuttur. Ulaşmak için [tıklayınız](https://github.com/ahmtkzk/tmdb-movie-bot). Veritabanına işlenen veriler, Java ile çekilip ön yüze aktarılmıştır.
 - İki farklı portta çalışan localhost sunucularında işlemler gerçekleşmektedir. Javascript portu `localhost:8000`, Java
   portu `localhost:8080`'dir.
 - Proje anasayfası `localhost:8000/dev/index.html` URL'sidir. 
